@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "xyz.teamgravity.m3expressiveslider"
+    namespace = "xyz.teamgravity.m3expressivefloatingtoolbar"
 
     compileSdk {
         version = release(libs.versions.sdk.compile.get().toInt()) {
@@ -15,7 +15,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "xyz.teamgravity.m3expressiveslider"
+        applicationId = "xyz.teamgravity.m3expressivefloatingtoolbar"
         minSdk = libs.versions.sdk.min.get().toInt()
         targetSdk = libs.versions.sdk.target.get().toInt()
         versionCode = 1
